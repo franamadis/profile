@@ -1,0 +1,144 @@
+  html,body {
+    background: url(images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+}
+
+  body {
+
+    font-family: 'Abel', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+h1 {font-family: 'Lobster', cursive;
+    font-size-adjust: 0.7;
+  }
+p {color: grey}
+
+.dark{color: black}
+
+
+
+.list-inline li {
+    display: inline-block;
+    padding: 48px;}
+
+.text-center {
+    text-align: center;
+}
+.center-footer{
+width: 572px;
+
+margin: 0px auto;
+}
+.card {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+margin: 20px auto;
+border-radius: 4px;
+box-shadow: 3px 3px 4px black;
+width: 500px;
+align-content: center;
+
+border: 1px white solid;
+line-height: 16px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.card-movies {
+  line-height: 0em;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.35);
+padding: 0px;
+margin: 0px auto;
+border-radius: 4px;
+box-shadow: 3px 3px 4px black;
+width: 610px;
+align-content: center;
+
+}
+.lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+
+.lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 0px;
+}
+ul {
+  list-style-type: none;
+}
+.img_profile {border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: -47px;
+max-width: 250px;
+height: auto;
+box-shadow: 3px 3px 4px black;
+border: 5px solid #fff;
+z-index: 10;
+position: sticky;
+}
+.profile_photo{
+background: #fff;
+border: 5px solid #fff;
+border-radius: 50%;
+height: 200px;
+position: relative;
+
+width: 200px;}
+
+a:hover {
+
+    color: white;
+    opacity: 1;
+}
+a {
+    color: lightgrey;
+    text-decoration: none;
+    opacity: 0.7;
+
+}
+
+.mailto:hover {
+  color: black;
+  opacity: 1;
+}
+.mailto {color: black;
+    text-decoration: none;
+    opacity: 0.7;}
+
+
+
+  .div1 {box-shadow: 2px 2px 2px #909090;
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+    width: 33%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+}
+
+
+
+
